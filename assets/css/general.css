@@ -1,0 +1,430 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('https://www.carroofies.com/assets/fonts/Gilroy-Light.woff2') format('woff2'),
+        url('https://www.carroofies.com/assets/fonts/Gilroy-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('https://www.carroofies.com/assets/fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+        url('https://www.carroofies.com/assets/fonts/Gilroy-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('https://www.carroofies.com/assets/fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('https://www.carroofies.com/assets/fonts/Gilroy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+/* index page */
+
+.firstheader{
+    font-family:Gilroy;
+    font-size: 30px;
+    width: 90%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.gallerylinkbox {
+    padding: 100px 0;
+}
+
+.gallerylinkboxtext {
+    font-family: Gilroy;
+    font-size: 29px;
+    margin: auto;
+    width: 70%;
+    font-weight: 700 !important;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.checkoutposts {
+    padding-top: 88px;
+    padding-bottom: 88px;
+    font-size: 30px;
+    font-family: Gilroy !important;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    font-weight:700;
+}
+
+.ebookintro {
+    font-family: Gilroy !important;
+    font-weight: 700 !important;
+    margin: auto;
+    width: 85%;
+}
+
+.title {
+    font-size: 41px;
+    font-weight: 800 !important;
+    margin-top: 50px;
+}
+
+.pricingdiv {
+    font-weight: 700;
+    margin: auto;
+    width: 85%;
+}
+
+.pricingP {
+    margin-bottom: 100px;
+}
+
+.maindiscussedtopicsdiv {
+    margin-top: 50px;
+}
+
+.discussedtopicsdiv {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    margin: auto;
+    width: 85%;
+}
+
+.discussedtopics {
+    font-family: Orbitron;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+.discussedintro {
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.topics{
+    display:inline-flex;
+}
+
+@media only screen and (max-width: 850px) {
+    .topics{
+        flex-direction: column;
+    }
+}
+
+.topicNumb {
+    /*margin-bottom: 0px;*/
+    /*margin-left: 10px;*/
+    /*margin-right: 10px;*/
+    
+    flex: 4;
+    min-width: 100px;
+    min-height: 100px;
+    margin-left: 5px;
+    padding: 40px;
+    margin-right: 5px;
+    background-color: #313131;
+    border-radius: 50px;
+}
+
+.lastTopic {
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.redPipe {
+    color: #FF0A32 !important;
+}
+
+.sneakpeakdiv {
+    font-family: Gilroy;
+    font-weight: 700;
+    /* margin: auto;
+    width: 85%; */
+}
+
+.sneakpeaktitle {
+    font-family: Orbitron;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 30px 0px 16px;
+    color: #323232;
+}
+
+.content2 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.buyourebook {
+    font-family: Gilroy;
+    font-weight: 800;
+    font-size: 30px;
+    margin:auto;
+    width:90%;
+    color: #323232;
+    padding-top: 20px;
+    padding-bottom:10px;
+}
+
+.clickhere{
+    font-weight: 900;
+}
+
+.shopdiv {
+    padding: 70px 0;
+}
+
+.shopdivcontent {
+    font-family: Gilroy;
+    font-size: 29px;
+    margin: auto;
+    width: 70%;
+    font-weight: 700 !important;
+    margin-bottom: 0px;
+}
+
+/* -------------------------------------- */
+
+
+
+/* about */
+.aboutdiv {
+    font-family: Gilroy;
+    font-weight: 700;
+    margin: auto;
+    width: 80%;
+    text-align: justify !important;
+}
+/* -------------------------------------- */
+
+
+
+/* blog */
+
+.titlediv{
+    margin-top: -350px; 
+    position: relative;    
+}
+
+.blog-parallax{
+    height: 70vh !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .blog-parallax{
+        height:60vh !important;
+    }
+}
+
+.red {
+    color: red;
+}
+
+.anchors ul li {
+    padding: 5px;
+    display: inline-block;
+    font-family: Gilroy;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-weight: 900;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 8px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.footer-basic .content {
+    font-weight: 700;
+}
+
+.footer-basic .subtitle {
+    font-weight: 600;
+    color: #ff4f4f;
+    border-bottom: 2px solid #ff4f4f;
+    border-left: 2px solid #ff4f4f;
+}
+
+.leaningright {
+    clip-path: polygon(0 0, 100% 25px, 100% 100%, 0 calc(100% - 25px));
+}
+
+.sneakpeakdiv div {
+    margin: auto;
+    width: 70%;
+    margin-top: 80px;
+    font-size: 17px;
+}
+
+.end {
+    font-family: Orbitron;
+    font-weight: 800;
+    font-size: 30px;
+    margin: auto;
+    color: #323232;
+    padding: 50px 0;
+}
+/* -------------------------------------- */
+
+
+
+/* navbar */
+.brand {
+    font-family: Orbitron, sans-serif;
+    font-weight: 700;
+}
+
+.navbartoggler {
+    border: none;
+    outline: none;
+}
+
+
+.navul {
+    font-family: Gilroy;
+    font-weight: 600;
+}
+
+.rednavtitle{
+    /*color: #ff4343 !important;*/
+}
+/* -------------------------------------- */
+
+
+
+/* footer image */
+.bottomlink {
+    text-align: center;
+    display: block;
+    width: 150px; 
+    text-align: center; 
+    margin: auto;
+}
+
+.bottomimg {
+    width: 150px;
+    margin-bottom: -40px;
+}
+/* -------------------------------------- */
+
+
+
+/* top button */
+.topbutton {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    color: #ffffff;
+    padding: 10px;
+    font-family: Orbitron;
+    font-weight: 700;
+}
+/* -------------------------------------- */
+
+
+
+/* general */
+.pagetitle {
+    font-family: Orbitron, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 20px 0px 16px;
+    color: #323232;
+    margin-top: 110px;
+}
+
+.pagesubtitle {
+    color: #323232;
+    font-size: 20px;
+    font-family: Gilroy, sans-serif;
+    margin: 0px 0px 0px;
+    font-weight: 800;
+    width:90%;
+    margin:auto;
+}
+
+.boldOrb {
+    font-family: Orbitron, sans-serif;
+    font-weight: 800;
+}
+
+.hr {
+    width: 50%;
+    border: 0.9px solid #323232;
+}
+
+.copyright{
+    font-family: Gilroy, sans-serif;
+}
+
+.dodgerblue{
+    color:dodgerblue;
+}
+/* -------------------------------------- */
+
+
+
+/* pagination */
+.page-item {
+    font-family: Gilroy;
+}
+
+a.page-link {
+    color: #323232;
+    font-weight: 700;
+	box-shadow: none !important;
+	transition:0.5s;
+	border: 0.5px solid #dee2e6 !important;
+}
+
+a.page-link:hover{
+    transition:0.5s;
+    background-color:#323232;
+    color:white;
+}
+/* -------------------------------------- */
+
+
+
+/* shopify products */
+div[id*="component"] {
+    margin: 85px;
+    display: inline-block;
+    padding-top: 5px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* -------------------------------------- */
+
+/* Selection color */
+::selection {
+  background: #323232; /* WebKit/Blink Browsers */
+  color: white;
+}
+::-moz-selection {
+  background: #323232; /* Gecko Browsers */
+  color: white;
+}

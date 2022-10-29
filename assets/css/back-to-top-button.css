@@ -1,0 +1,27 @@
+.ir-arriba {
+  display:none;
+  padding:20px;
+  background:#323232;
+  font-size:50px;
+  color:#024959;
+  cursor:pointer;
+  position:fixed;
+  bottom:20px;
+  border-radius:10px;
+  right:20px;
+  z-index:1000;
+}
+
+a:hover {
+  color:#323232;
+}
+
+.topbutton {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    color: #ffffff;
+    padding: 10px;
+    font-family: Orbitron;
+    font-weight: 700;
+}
+

@@ -1,0 +1,142 @@
+.contact-clean {
+	padding: 80px 0;
+	
+	/*after parallax*/
+	margin-top:-314px !important; 
+	position:relative !important;
+}
+
+.contact-parallax{
+    height:70vh !important;
+}
+
+@media (max-width:767px) {
+	.contact-clean {
+		transition: 0.5s;
+		padding: 20px 0;
+		margin-top: 90px;
+	}
+}
+@media (min-width:767px) {
+	.contact-clean {
+		transition: 0.5s;
+		margin-top: 40px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-parallax{
+        height:60vh !important;
+    }
+    
+    /*
+    .contact-clean {
+	    margin-top:-200px !important;
+    }*/
+}
+
+.contact-clean form {
+	transition: 0.5s;
+	max-width: 600px;
+	width: 90%;
+	margin: 0 auto;
+	background-color: #ffffff;
+	padding: 40px;
+	border-radius: 4px;
+	/* 	color: #505e6c; */
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+	transition: 0.5s;
+
+}
+
+.contact-clean form:hover {
+	transition: 0.5s;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width:767px) {
+	.contact-clean form {
+		transition: 0.5s;
+		padding: 30px;
+	}
+}
+
+.contact-clean h2 {
+	transition: 0.5s;
+	margin-top: 5px;
+	font-weight: bold;
+	font-size: 28px;
+	margin-bottom: 36px;
+	color: inherit;
+}
+
+.contact-clean .form-group:last-child {
+	margin-bottom: 5px;
+}
+
+.contact-clean form .form-control {
+	border-radius: 2px;
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.06);
+	outline: none;
+	background-color: transparent;
+	color: inherit;
+	padding-left: 12px;
+	height: 42px;
+	border: 0;
+	border-radius: 0px;
+
+}
+
+.contact-clean form .form-control:focus {
+	/* 	border: 1px solid #b2b2b2;
+	border-radius: 10px; */
+	transition: 0.5s;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+
+}
+
+.contact-clean form textarea.form-control {
+	min-height: 100px;
+	max-height: 260px;
+	padding-top: 10px;
+	resize: vertical;
+}
+
+.contact-clean form .btn {
+	background-color: deepskyblue;
+	color: white;
+	padding: 16px 32px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 1;
+	transition: 0.5s;
+	margin: auto;
+	display: block;
+	width: 70%;
+	margin-top: 40px;
+	border: none !important;
+	outline: 0 !important;
+	box-shadow: none !important;
+}
+
+.contact-clean form .btn:hover {
+	background-color: #323232;
+	transition: 0.5s;
+}
+
+.contact-clean form .btn:active {
+	background-color: #323232 !important;
+	transition: 0.5s;
+}
+
+
+/* autofill stuff */
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+	background-color: rgb(255, 255, 255) !important;
+	background-image: none !important;
+	color: rgb(0, 0, 0) !important;
+}

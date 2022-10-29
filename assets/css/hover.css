@@ -1,0 +1,11 @@
+.hov a {
+  text-decoration:none;
+  transition:0.4s;
+  color:dodgerblue;
+}
+
+.hov a:hover {
+  color:#323232;
+  -webkit-transition-duration: 0.4s;
+   transition-duration: 0.4s;
+}

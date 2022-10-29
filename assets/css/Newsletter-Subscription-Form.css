@@ -1,0 +1,108 @@
+.newsletter-subscribe {
+  color:#313437;
+  padding:60px 0px;
+  font-family: Gilroy;
+ 
+}
+
+.newsletter-subscribe p {
+  color:#323232;
+  line-height:1.5;
+  font-weight:600;	
+}
+
+.newsletter-subscribe h2 {
+  font-size:24px;
+  font-weight:bold;
+  margin-bottom:25px;
+  line-height:1.5;
+  padding-top:0;
+  margin-top:0;
+  color:inherit;
+}
+
+.newsletter-subscribe .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 25px;
+  
+}
+
+.newsletter-subscribe .intro p {
+  margin-bottom:35px;
+}
+
+.newsletter-subscribe form {
+  justify-content:center;
+}
+
+.newsletter-subscribe form .form-control {
+  background:#eff1f4;
+  border:none;
+  border-radius:3px;
+  box-shadow:none;
+  outline:none;
+  color:inherit;
+  text-indent:9px;
+  height:45px;
+  margin-right:10px;
+  min-width:250px;
+  
+}
+
+.newsletter-subscribe form .btn {
+  padding:16px 32px;
+  border:none;
+  background:none;
+  box-shadow:none;
+  text-shadow:none;
+  opacity:0.9;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:13px;
+  letter-spacing:0.4px;
+  line-height:1;
+}
+
+.newsletter-subscribe form .btn:hover {
+  opacity:1; 
+}
+
+
+.newsletter-subscribe form .btn-primary {
+  background-color:#055ada !important;
+  color:#fff;
+  border: none !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.newsletter-subscribe form .btn-primary:hover {
+  background-color:#323232 !important;
+}
+
+/*style the error when pressing subscribe*/
+#mc_embed_signup div.mce_inline_error {
+    padding: 5px 10px !important;
+    font-weight: 600 !important;
+    color: red !important;
+    position: absolute !important;
+    margin-top: 85px !important;
+	background-color: transparent !important;
+	text-align: center !important;
+	margin-left: -8px !important;
+}
+
+
+@media only screen and (max-width: 575px){
+	#mc_embed_signup div.mce_inline_error {
+		margin-top: 0px !important;
+	}
+}
+
+@media only screen and (max-width: 440px){
+	#mc_embed_signup div.mce_inline_error {
+		margin-top: 70px !important;
+	}
+}
+

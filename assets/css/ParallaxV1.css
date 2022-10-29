@@ -1,0 +1,33 @@
+/* VERSION 1 PARALLAX EFFECT */
+
+.box{
+	height:100vh;
+	width:100%;
+	background-size:cover !important;
+	display:table;
+	background-attachment:fixed;
+}
+
+#box-1 {    
+  background-image:url(../../assets/img/aventadorS1.jpg);
+}
+
+#box-2{
+  background-image:url(../../assets/img/avio1.jpg);
+}
+
+#box-3 {
+  background-image:url(../../assets/img/aventadorS5.jpg);
+}
+
+h1 {
+  font-size:50px;
+  color:white;
+  margin:0px;
+  text-align:center;
+  display:table-cell;
+  vertical-align:middle;
+  font-family: Orbitron; 
+  font-weight: 800;
+}
+
